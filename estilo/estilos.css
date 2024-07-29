@@ -1,14 +1,19 @@
     html{
-        font-family: 'Montserrat','Times New Roman' ; 
+        font-family: 'Montserrat'; /*'cursive','Times New Roman' ; */
     }
 
     body{
         margin: 0;
-        background-color: #efefef;
+       background-color: #efefef;
+        /* background-image: linear-gradient(red, yellow); */
+
+        
     }
 
     .cabeza{
-        background-color: rgb(20, 60, 197);
+        /* background-color: rgb(20, 60, 197); */
+        background-image: linear-gradient(45deg, rgb(9, 25, 248), rgb(158, 1, 255));     /*ANIMACIÓN DE COLOR */
+
         color: white;
         width: 100%;
         z-index: 100%;
