@@ -1,8 +1,83 @@
-h1, p{
-    font-family: 'Courier New', Courier, monospace;
-}
+    html{
+        font-family: 'Montserrat'; /*'cursive','Times New Roman' ; */
+    }
 
-img{
-    align-content: right;
-}
+    body{
+        margin: 0;
+        background-color: #efefef;
+    }
+
+    .cabeza{
+        background-color: rgb(20, 60, 197);
+        color: white;
+        width: 100%;
+        z-index: 100%;
+        padding: auto 1rem;
+        margin-bottom: 3rem;
+        top: 0;
+        position: fixed;
+    }
+
+    header h1{
+        font-size: 3rem;
+        text-align: center; 
+        position: sticky;   
+    }
+
+    img{
+        width: 700px;
+    }
+
+    .container{
+        width: 700px;
+        margin: 11rem auto; /*centrado*/
+    }
+
+    section article{
+        /* trnasition: all animar todas las propiedades de ese elemento */
+        transition: box-shadow 0.3s ease-in-out; 
+        background-color: white;
+        margin: 1rem 0;
+        border-radius: 0.5rem;
+        padding: 0.25rem 0;
+        cursor: pointer;
+
+    }
+
+    section article:hover{
+        box-shadow: 0 0.1rem 0.4rem rgba(75, 10, 166, 0.4) ;
+    }
+
+    section article h2, section article p{
+        margin: 1rem;
+    }
+
+    footer {
+        background-color: rgb(44, 42, 42);
+        padding: 2rem 1rem;
+        color: white;
+        width: 100%;
+        bottom: 0%;
+    }
+
+    footer section{
+        background-color: rgb(44, 42, 42);
+        float: right;
+        right: 2rem;
+        position: sticky;
+    }
+
+    footer p{
+        margin: 0;
+    }
+
+    footer a{
+        transition: color 0.3s ease;
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover{
+        color: aquamarine;
+    }
 
